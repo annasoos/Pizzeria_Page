@@ -25,3 +25,5 @@ Webpage created (as a team project) to a fictional pizzeria, to browse the menu 
 - Use react modal package in case of booking form
 - Set fire icons to show only on spicy pizzas
 - Use more elegant message display (eg. ract tostify)
+
+![rocketpizza](https://user-images.githubusercontent.com/83576776/130471870-5adbb977-022d-49af-b486-6bb11de2ef1a.jpg)
