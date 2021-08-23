@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kaushan+Script&family=Nothing+You+Could+Do&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Galada&display=swap");
+
+/*font-family: 'Dancing Script', cursive;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Nothing You Could Do', cursive;*/
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  outline: none;
+  text-decoration: none;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+
+#root {
+  position: relative;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url(./images/background.png);
+  background-color: #650200;
+  font-family: "Montserrat", sans-serif;
+}
+
+.logo {
+  position: absolute;
+  margin: 0 10px;
+  width: 5rem;
+  top: 5px;
+  left: 5px;
+  z-index: 102;
+}
+
+.navIcon {
+  width: 1.125rem;
+  margin-right: 10px;
+}
+
+.titleContainer {
+  position: relative;
+  z-index: 99;
+}
+
+#brushStroke {
+  justify-self: center;
+  width: 800px;
+  height: 150px;
+  grid-column: 1;
+  grid-row: 2;
+  transform: rotate(-5deg);
+  opacity: 0.9;
+  visibility: hidden;
+  z-index: 98;
+
+  animation: brushstroke 0.5s ease-in 1s 1 forwards;
+}
+
+@keyframes brushstroke {
+  0% {
+    visibility: hidden;
+    clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+  }
+  1% {
+    visibility: visible;
+  }
+  100% {
+    visibility: visible;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
+}
+
+.img-wrap {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  filter: drop-shadow(0 10px 5px);
+  z-index: -1;
+}
+
+.img {
+  width: 100%;
+  height: calc(100vh + 12.5rem);
+  object-fit: cover;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 50% 100%, 0 85%);
+}
+
+ul {
+  z-index: 101;
+}
+
+.pizzaImg {
+  width: 200px;
+  height: 200px;
+  align-self: center;
+  border-radius: 50%;
+
+  animation: pizzaRoll 15s linear infinite;
+}
+
+.fireIcon {
+  position: absolute;
+  width: 45px;
+
+  animation: fireAnim 700ms ease-in-out infinite;
+}
+
+@keyframes fireAnim {
+  0% {
+    height: 45px;
+  }
+  50% {
+    height: 52px;
+  }
+  100% {
+    height: 45px;
+  }
+}
+
+@keyframes pizzaRoll {
+  0% {transform:rotate(0deg)}
+  100% {transform: rotate(360deg);}
+}
+
+@media screen and (max-width: 600px) {
+  #brushStroke{
+    width: 100%;
+    height: 100%;
+  }
+  .img {
+    object-position: left bottom;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 50% 100%, 0 90%);
+  }
+  .logo {
+    margin: 0 5px;
+  }
+  .fireIcon {
+    visibility: hidden;
+  }
+}

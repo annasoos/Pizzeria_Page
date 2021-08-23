@@ -1,0 +1,118 @@
+[
+    {
+    "name": "BBQ",
+    "toppings": "BBQ sauce, bacon, chicken breast strips, onions, Wonder pepper, mozzarella",
+    "priceSmall": "1695 HUF",
+    "priceBig": "2695 HUF"
+    },
+    {
+    "name": "Bolognese",
+    "toppings": "bolognese sauce, mozzarella",
+    "priceSmall": "1295 HUF",
+    "priceBig": "2295 HUF"
+    },
+    {
+    "name": "Carbonara",
+    "toppings": "garlic sour cream, bacon, egg, mozzarella",
+    "priceSmall": "1295 HUF",
+    "priceBig": "2295 HUF"
+    },
+    {
+    "name": "Castello",
+    "toppings": "hot sour cream, bacon, daisy ham, sausage, onions, hot pepperoni pepper, mozzarella",
+    "priceSmall": "1595 HUF",
+    "priceBig": "2595 HUF"
+    },
+    {
+    "name": "Chili Con Carne",
+    "toppings": "bolognese sauce, beans, corn, jalapeno, mozzarella",
+    "priceSmall": "1595 HUF",
+    "priceBig": "2595 HUF"
+    },
+    {
+    "name": "Dolce Vita",
+    "toppings": "tomato sauce, ham, mushrooms, sweetcorn, mozzarella",
+    "priceSmall": "1295 HUF",
+    "priceBig": "2295 HUF"
+    },
+    {
+    "name": "Cheesy",
+    "toppings": "cream cheese, bacon, chicken breast strips, smoked mozzarella, mozzarella",
+    "priceSmall": "1595 HUF",
+    "priceBig": "2595 HUF"
+    },
+    {
+    "name": "Escobar",
+    "toppings": "taco sauce, beef, bacon, sausage, pepper, mozzarella",
+    "priceSmall": "1695 HUF",
+    "priceBig": "2695 HUF"
+    },
+    {
+    "name": "Fitness",
+    "toppings": "tomato sauce, sweetcorn, broccoli, pepper, feta cheese, mozzarella",
+    "priceSmall": "1395 HUF",
+    "priceBig": "2395 HUF"
+    },
+    {
+    "name": "Genova",
+    "toppings": "sour cream, daisy ham, leek, smoked mozzarella",
+    "priceSmall": "1395 HUF",
+    "priceBig": "2395 HUF"
+    },
+    {
+    "name": "Gyros",
+    "toppings": "gyros sauce, chicken breast strips, tomato slices, cucumber, red onions, mozzarella",
+    "priceSmall": "1495 HUF",
+    "priceBig": "2495 HUF"
+    },
+    {
+    "name": "Hawaii",
+    "toppings": "tomato sauce, ham, pineapple, sweetcorn, mozzarella",
+    "priceSmall": "1395 HUF",
+    "priceBig": "2395 HUF"
+    },
+    {
+    "name": "Margherita",
+    "toppings": "tomato sauce, tomato slices, oregano, mozzarella",
+    "priceSmall": "1395 HUF",
+    "priceBig": "2395 HUF"
+    },
+    {
+    "name": "Mexico",
+    "toppings": "taco sauce, bacon, beans, sweetcorn, mozzarella",
+    "priceSmall": "1495 HUF",
+    "priceBig": "2495 HUF"
+    },
+    {
+    "name": "Napolitana",
+    "toppings": "tomato sauce, ham, salami, tuna, olives, parmesan, mozzarella",
+    "priceSmall": "1695 HUF",
+    "priceBig": "2695 HUF"
+    },
+    {
+    "name": "Four Seasons",
+    "toppings": "tomato sauce, ham, mushrooms, sweetcorn, salami, mozzarella",
+    "priceSmall": "1395 HUF",
+    "priceBig": "2395 HUF"
+    },
+    {
+    "name": "Ham & Mushroom",
+    "toppings": "tomato sauce, ham, mushrooms, mozzarella",
+    "priceSmall": "1295 HUF",
+    "priceBig": "2295 HUF"
+    },
+    {
+    "name": "Pomodoro",
+    "toppings": "tomato sauce, ham, tomato slices, red onions, mozzarella",
+    "priceSmall": "1295 HUF",
+    "priceBig": "2295 HUF"
+    },
+    {
+    "name": "Seafood",
+    "toppings": "tomato sauce, seafood, tuna, olives, mozzarella",
+    "priceSmall": "1695 HUF",
+    "priceBig": "2695 HUF"
+    }
+]
+
+
