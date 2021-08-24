@@ -29,8 +29,9 @@ Webpage created (as a team project) to a fictional pizzeria, where users can bro
 ## TODO
 
 - Fix navigation from Booking page to About and Menu sections
-- Use react modal package in case of booking form
-- Set fire icons to show only on spicy pizzas
-- Use more elegant message display (eg. ract tostify)
+- Use react modal package in case of booking form (instead of class name toggle)
+- Set fire icons to show only on spicy pizzas in the menu
+- Use more elegant solution to display confirmation message to user (eg. react tostify)
+
 ![rocketpizza](https://user-images.githubusercontent.com/83576776/130471974-4f0be77a-62ed-465e-8a5f-996ecb63730c.jpg)
 
